@@ -33,7 +33,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --environment mainroad 
+            --environment fixit 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
