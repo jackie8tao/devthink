@@ -48,7 +48,7 @@ jobs:
           SECRET_KEY: ${{ secrets.SecretKey }}    
           BUCKET: ${{ secrets.Bucket }}           
           REGION: ${{ secrets.Region }}           
-        run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION # 为 coscmd 工具配置存储桶信息
+        run: coscmd config -a $SECRET_ID -s $SECRET_KEY -b $BUCKET -r $REGION 
 
       - name: Upload to COS
         run: coscmd upload -rfs --delete public/ /     
