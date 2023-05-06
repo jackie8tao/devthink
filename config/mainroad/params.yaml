@@ -1,0 +1,13 @@
+authorbox: false
+copyright: "Jackie Tao"
+toc: true
+pager: true
+sidebar:
+  home: "right"
+  list: "left"
+  sigle: false
+  widgets: 
+     - "search"
+     - "recent"
+     - "categories"
+     - "taglist"

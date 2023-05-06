@@ -1,0 +1,4 @@
+baseURL: 'https://tdfdev.xyz/'
+languageCode: 'zh-cn'
+title: 'DevThink'
+theme: 'mainroad'
