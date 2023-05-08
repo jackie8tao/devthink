@@ -2,7 +2,7 @@
 title: Hugo模板分析
 author: Jackie Tao
 date: 2023-05-07T12:31:10+08:00
-draft: true
+draft: false
 description: 解释hugo基本概念和自动化博客网站。
 keywords: hugo 博客
 comment: false
